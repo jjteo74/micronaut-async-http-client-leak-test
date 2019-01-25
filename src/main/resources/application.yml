@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: buffer-leak-app
+  http.services:
+    myself:
+      urls:
+        - http://localhost:8080
